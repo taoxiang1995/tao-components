@@ -14,11 +14,13 @@
     "test": "react-scripts test --env=jsdom",
     "lint": "eslint src",
     "prebuild": "babel src/components --out-dir lib --ignore test.js",
-    "create-release-branch": "sh ./scripts/create-release-branch",
+    "push-to-github-publich-to-npm": "sh ./scripts/push-to-github-publich-to-npm",
     "publish-release": "sh ./scripts/publish-release",
     "deploy-docs": "sh ./scripts/docs",
     "ci-deploy-docs": "sh ./scripts/docs-ci",
-    "gh-pages": "REACT_APP_GH_PAGES_PATH='tao-react-components' npm run build"
+    "gh-pages": "REACT_APP_GH_PAGES_PATH='tao-react-components' npm run build",
+    "storybook": "start-storybook -p 9001 -s public",
+    "build-storybook": "build-storybook -s public"
   },
   "devDependencies": {
     "babel-cli": "^6.14.0",
@@ -40,11 +42,16 @@
     "react-prism": "^4.0.0",
     "react-router": "^4.0.0-alpha.6",
     "react-scripts": "0.8.5",
-    "reactstrap": "^4.0.1"
+    "reactstrap": "^4.0.1",
+    "@kadira/storybook": "^2.21.0"
   },
-  "dependencies": {},
-  "peerDependencies": {
+  "dependencies": {
+    "react-addons-transition-group": "^15.3.2",
+    "react-addons-css-transition-group": "^15.3.2",
+    "react-scripts": "0.8.5",
     "reactstrap": "^4.0.0"
+  },
+  "peerDependencies": {
   },
   "license": "MIT",
   "files": [

@@ -53,3 +53,9 @@ git commit --message "chore(release): adding $VERSION"
 git push --set-upstream origin "release-$VERSION"
 
 success "release-$VERSION branch has been pushed"
+
+npm publish
+success "published $VERSION to npm"
+
+
+

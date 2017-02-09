@@ -24,7 +24,7 @@ if [ -z "$VERSION" ]; then
 fi
 
 git checkout master
-git pull
+git pull origin master
 npm install
 npm run build
 git tag -a $VERSION -m "release $VERSION"
