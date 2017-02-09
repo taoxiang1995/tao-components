@@ -5,7 +5,7 @@ set -e
 BUMP_TYPE=$1
 
 git checkout master
-git pull
+git pull origin master
 npm install
 
 CURRENT_BRANCH="$(git symbolic-ref --short -q HEAD)"

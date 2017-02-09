@@ -1,11 +1,11 @@
 {
-  "name": "component-template",
-  "description": "A React component template for building and publishing reactstrap components",
-  "version": "1.0.0",
-  "homepage": "https://reactstrap.github.io/component-template",
+  "name": "tao-react-components",
+  "description": "react components crafted with love by Tao",
+  "version": "1.0.1",
+  "homepage": "",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/reactstrap/component-template.git"
+    "url": "git+ssh://git@github.com:taoxiang1995/tao-components.git"
   },
   "main": "lib/index.js",
   "scripts": {
@@ -18,7 +18,7 @@
     "publish-release": "sh ./scripts/publish-release",
     "deploy-docs": "sh ./scripts/docs",
     "ci-deploy-docs": "sh ./scripts/docs-ci",
-    "gh-pages": "REACT_APP_GH_PAGES_PATH='component-template' npm run build"
+    "gh-pages": "REACT_APP_GH_PAGES_PATH='tao-react-components' npm run build"
   },
   "devDependencies": {
     "babel-cli": "^6.14.0",
