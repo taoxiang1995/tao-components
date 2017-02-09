@@ -1,3 +1,18 @@
+<a name="1.0.4"></a>
+## [1.0.4](https://github.com/taoxiang1995/tao-components/compare/1.0.1...v1.0.4) (2017-02-09)
+
+
+
+<a name="1.0.3"></a>
+## [1.0.3](https://github.com/taoxiang1995/tao-components/compare/1.0.1...v1.0.3) (2017-02-09)
+
+
+
+<a name="1.0.2"></a>
+## [1.0.2](https://github.com/taoxiang1995/tao-components/compare/1.0.1...v1.0.2) (2017-02-09)
+
+
+
 <a name="1.0.0"></a>
 # [1.0.0](https://github.com/reactstrap/component-template/compare/0.2.0...v1.0.0) (2017-01-28)
 
