@@ -1,7 +1,7 @@
 {
   "name": "tao-react-components",
   "description": "react components crafted with love by Tao",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "homepage": "",
   "repository": {
     "type": "git",
@@ -14,7 +14,7 @@
     "test": "react-scripts test --env=jsdom",
     "lint": "eslint src",
     "prebuild": "babel src/components --out-dir lib --ignore test.js",
-    "create-release-branch": "sh ./scripts/create-release-branch",
+    "push-to-github-publich-to-npm": "sh ./scripts/push-to-github-publich-to-npm",
     "publish-release": "sh ./scripts/publish-release",
     "deploy-docs": "sh ./scripts/docs",
     "ci-deploy-docs": "sh ./scripts/docs-ci",
