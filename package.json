@@ -45,9 +45,13 @@
     "reactstrap": "^4.0.1",
     "@kadira/storybook": "^2.21.0"
   },
-  "dependencies": {},
-  "peerDependencies": {
+  "dependencies": {
+    "react-addons-transition-group": "^15.3.2",
+    "react-addons-css-transition-group": "^15.3.2",
+    "react-scripts": "0.8.5",
     "reactstrap": "^4.0.0"
+  },
+  "peerDependencies": {
   },
   "license": "MIT",
   "files": [
