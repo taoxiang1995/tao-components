@@ -1,13 +1,13 @@
 {
   "name": "tao-react-components",
   "description": "react components crafted with love by Tao",
-  "version": "1.0.5",
+  "version": "1.0.15",
   "homepage": "",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com:taoxiang1995/tao-components.git"
   },
-  "main": "lib/index.js",
+  "main": "src/components/index.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -51,14 +51,14 @@
     "react-scripts": "0.8.5",
     "reactstrap": "^4.0.0"
   },
-  "peerDependencies": {
-  },
+  "peerDependencies": {},
   "license": "MIT",
   "files": [
     "LICENSE",
     "README.md",
     "CHANGELOG.md",
-    "lib"
+    "lib",
+    "src/components"
   ],
   "keywords": [
     "component-template",

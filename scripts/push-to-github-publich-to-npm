@@ -5,8 +5,8 @@ set -e
 BUMP_TYPE=$1
 
 git checkout master
-git pull origin master
-npm install
+# git pull origin master
+# npm install
 
 CURRENT_BRANCH="$(git symbolic-ref --short -q HEAD)"
 
@@ -47,15 +47,17 @@ npm run build
 
 echo "==> Committing changes"
 
-git checkout -b "release-$VERSION"
+# git checkout -b "release-$VERSION"
 git add --all
 git commit --message "chore(release): adding $VERSION"
 git push --set-upstream origin "release-$VERSION"
 
 success "release-$VERSION branch has been pushed"
 
+npm build
 npm publish
 success "published $VERSION to npm"
+# git checkout master
 
 
 
