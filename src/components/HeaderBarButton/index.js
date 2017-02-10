@@ -2,6 +2,7 @@
 import React, {Component} from 'react';
 /* internal dependencies*/
 import './style.css';
+import '../../css-libraries/ionicons/css/ionicons.css';
 
 const HeaderBarButton = ({buttonType, buttonTitle, buttonColor, onClick})=>{
   // const handleViewButtonClick = (ViewWindowElement)=>{
