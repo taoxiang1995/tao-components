@@ -1,7 +1,7 @@
 {
   "name": "tao-react-components",
   "description": "react components crafted with love by Tao",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "homepage": "",
   "repository": {
     "type": "git",
@@ -57,8 +57,7 @@
     "LICENSE",
     "README.md",
     "CHANGELOG.md",
-    "lib",
-    "src/components"
+    "lib"
   ],
   "keywords": [
     "component-template",
