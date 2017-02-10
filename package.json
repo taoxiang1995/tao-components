@@ -1,13 +1,13 @@
 {
   "name": "tao-react-components",
   "description": "react components crafted with love by Tao",
-  "version": "1.0.23",
+  "version": "1.0.24",
   "homepage": "",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com:taoxiang1995/tao-components.git"
   },
-  "main": "lib/index.js",
+  "main": "lib/components/index.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
