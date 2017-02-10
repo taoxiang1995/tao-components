@@ -1,8 +1,8 @@
 // export individual components
-import HelloWorld from './HelloWorld';
 import Button from './Button';
+import HeaderBarButton from './HeaderBarButton';
 
 export {
-  HelloWorld,
-  Button
+  Button,
+  HeaderBarButton
 };

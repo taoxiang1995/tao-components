@@ -44,9 +44,9 @@ rm -rf ./dist
 
 echo "==> Creating build files"
 cp -r src/components/* lib/
-cd lib
-find . -name "*.js" -type f -delete
-cd ..
+# cd lib
+# find . -name "*.js" -type f -delete
+# cd ..
 npm run build
 
 echo "==> Committing changes"
