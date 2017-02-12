@@ -8,12 +8,12 @@ import './style.css';
 class ContentEditable extends Component {
     constructor(props){
         super(props);
-        var SavedEditorState = {};
+        var SavedEditorState = null;
         if (this.props.SavedEditorState){
             SavedEditorState = this.props.SavedEditorState;
         }
         this.state = {
-            editorState: createEditorState(SavedEditorState), // for empty content
+            editorState: SavedEditorState? createEditorState(SavedEditorState):createEditorState(), // for empty content
         };
 
         this.onChange = (editorState) => {
