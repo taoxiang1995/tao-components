@@ -584,7 +584,7 @@
   padding: 15px; }
 
 .md-RichEditor-editor .public-DraftEditor-content {
-  min-height: 100px; }
+  min-height: 0px; }
 
 .md-RichEditor-hidePlaceholder .public-DraftEditorPlaceholder-root {
   display: none; }
