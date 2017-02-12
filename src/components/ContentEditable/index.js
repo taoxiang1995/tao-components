@@ -66,6 +66,13 @@ class ContentEditable extends Component {
 
     }
 
+    componentWillReceiveProps(nextProps) {
+        this.setState({
+            editorState: nextProps.SavedEditorState&&nextProps.SavedEditorState.blocks? createEditorState(nextProps.SavedEditorState):createEditorState()
+        })
+    }
+    
+
     render() {
         const { editorState } = this.state;
             return (
