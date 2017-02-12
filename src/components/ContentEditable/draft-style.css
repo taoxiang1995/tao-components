@@ -752,7 +752,7 @@
     .md-editor-toolbar .md-url-input:focus {
       outline: none; }
   .md-editor-toolbar .md-url-input-close {
-    bottom:25%;
+    bottom:0px;
     position: absolute;
     right: 10px;
     /*top: 5px;*/

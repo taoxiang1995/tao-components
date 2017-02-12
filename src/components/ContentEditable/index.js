@@ -62,7 +62,7 @@ class ContentEditable extends Component {
 
     componentDidMount() {
         this.refs.editor.focus();
-        document.getElementsByClassName('DraftEditor-root')[0]&&document.getElementsByClassName('DraftEditor-root')[0].classList.add(this.props.className);
+        document.getElementsByClassName('md-RichEditor-root')[0]&&document.getElementsByClassName('md-RichEditor-root')[0].classList.add(this.props.className);
 
     }
 
