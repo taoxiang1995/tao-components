@@ -23,7 +23,7 @@ class ContentEditable extends Component {
             let EditorState = convertToRaw(editorState.getCurrentContent());
             this.props.onChange && this.props.onChange(HTMLContent, TextContent, EditorState);
         };
-       
+        this.sideButtons = [];
         this.blockButtons = [];
         this.inlineButtons = [{
             label: 'B',
@@ -71,9 +71,10 @@ class ContentEditable extends Component {
             return (
                 <div className={"Tao-ContentEditable"}>
                     <Editor
+                        sideButtons={this.sideButtons}
                         placeholder={this.props.placeholder?this.props.placeholder:'Write Your Text Here..'}
                         ref="editor"
-                        editorState={editorState}
+                        editorState={this.editorState}
                         onChange={this.onChange} 
                         inlineButtons={this.inlineButtons}
                         blockButtons={this.blockButtons}
