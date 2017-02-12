@@ -44,6 +44,7 @@ storiesOf('HeaderBarButton', module)
   ))
   .add('ContentEditable', () => (
     <ContentEditable
+      SavedEditorState={{}}
       placeholder="Write your title here..." 
       className="Story-ContentEditable" />
   ))

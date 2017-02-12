@@ -13,7 +13,7 @@ class ContentEditable extends Component {
             SavedEditorState = this.props.SavedEditorState;
         }
         this.state = {
-            editorState: SavedEditorState? createEditorState(SavedEditorState):createEditorState(), // for empty content
+            editorState: SavedEditorState&&SavedEditorState.blocks? createEditorState(SavedEditorState):createEditorState(), // for empty content
         };
 
         this.onChange = (editorState) => {
