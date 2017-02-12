@@ -74,7 +74,7 @@ class ContentEditable extends Component {
                         sideButtons={this.sideButtons}
                         placeholder={this.props.placeholder?this.props.placeholder:'Write Your Text Here..'}
                         ref="editor"
-                        editorState={this.editorState}
+                        editorState={editorState}
                         onChange={this.onChange} 
                         inlineButtons={this.inlineButtons}
                         blockButtons={this.blockButtons}
