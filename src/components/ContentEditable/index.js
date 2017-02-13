@@ -62,12 +62,12 @@ class ContentEditable extends Component {
 
     componentDidMount() {
         this.refs.editor.focus();
-        document.getElementsByClassName('md-RichEditor-root')[0]&&document.getElementsByClassName('md-RichEditor-root')[0].classList.add(this.props.className);
-
+        document.getElementsByClassName('md-RichEditor-root')[0]&&document.getElementsByClassName('md-RichEditor-root')[0].classList.add(this.props.EditorStyleClassName);
+        document.getElementsByClassName('DraftEditor-editorContainer')[0]&&document.getElementsByClassName('DraftEditor-editorContainer')[0].classList.add(this.props.TextStyleClassName)
     }
 
     componentWillReceiveProps(nextProps) {
-        this.setState({
+        nextProps.curentEditingQuestion != this.props.curentEditingQuestion&&this.setState({
             editorState: nextProps.SavedEditorState&&nextProps.SavedEditorState.blocks? createEditorState(nextProps.SavedEditorState):createEditorState()
         })
     }

@@ -38,7 +38,7 @@ storiesOf('HeaderBarButton', module)
 
   storiesOf('ContentEditable', module)
    .addDecorator((story) => (
-    <div style={{backgroundColor:'black', width: '100%', height:'100vh', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+    <div style={{backgroundColor:'#f1f1f1', width: '100%', height:'100vh', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
       {story()}
     </div>
   ))

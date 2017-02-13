@@ -21,7 +21,8 @@
   -webkit-user-modify: read-write-plaintext-only; }
 
 .DraftEditor-root {
-  line-height: 110%;
+  /*font-size: 100px;
+  width: 60%;*/
   position: relative; }
 
 .DraftEditor-editorContainer {
@@ -562,10 +563,11 @@
   -moz-transition: opacity 0.3s ease, visibility 0.3s ease, -moz-transform 0.3s cubic-bezier(0.71, 1.7, 0.77, 1.24);
   transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s cubic-bezier(0.71, 1.7, 0.77, 1.24); }
 .md-RichEditor-root {
-  background: #fff;
+  /*width: 20%;*/
+  background: rgba(0, 0, 0, 0);
   box-sizing: border-box;
   font-family: 'Georgia', serif;
-  padding: 15px 30px;
+  /*padding: 15px 30px;*/
   position: relative;
   line-height: 1.4em; }
 
@@ -584,7 +586,7 @@
   padding: 15px; }
 
 .md-RichEditor-editor .public-DraftEditor-content {
-  min-height: 0px; }
+  min-height: 100px; }
 
 .md-RichEditor-hidePlaceholder .public-DraftEditorPlaceholder-root {
   display: none; }
@@ -713,8 +715,6 @@
     opacity: 1; } }
 
 .md-editor-toolbar {
-  font-size: 20px!important;
-  width: auto!important;
   background: #2b2b2b;
   color: #fff;
   cursor: auto;
@@ -738,11 +738,10 @@
     border-right: 5px solid transparent;
     border-left: 5px solid transparent; }
   .md-editor-toolbar .md-url-input {
-      width: 95%;
     box-sizing: border-box;
     border-radius: 2px;
     display: block;
-    /*width: 120%;*/
+    width: 100%;
     padding: 5px;
     border: none;
     background: #2b2b2b;
@@ -752,15 +751,13 @@
     .md-editor-toolbar .md-url-input:focus {
       outline: none; }
   .md-editor-toolbar .md-url-input-close {
-    bottom:0px;
     position: absolute;
     right: 10px;
-    /*top: 5px;*/
-    font-size: 180%;
+    top: 8px;
+    font-size: 20px;
     cursor: pointer; }
 
 .md-RichEditor-controls {
-  /*vertical-align: center;*/
   font-family: 'Helvetica', sans-serif;
   font-size: 14px;
   display: inline-block;
@@ -775,8 +772,6 @@
     text-decoration: none; }
 
 .md-RichEditor-styleButton {
-  font-size: 20px;
-  /*height: 10px;*/
   color: #fff;
   cursor: pointer;
   display: inline-block;
