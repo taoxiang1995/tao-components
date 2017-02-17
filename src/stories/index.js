@@ -13,6 +13,7 @@ storiesOf('Button', module)
 storiesOf('HeaderBarButton', module)
   .add('theme button', () => (
      <HeaderBarButton
+          className="HeaderBarButton-Button"
           buttonType="theme"
           buttonTitle="Theme"
           buttonColor="HeaderBarButton-Red"/>

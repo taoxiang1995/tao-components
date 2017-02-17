@@ -4,7 +4,7 @@ import React, {Component} from 'react';
 import './style.css';
 import '../../css-libraries/ionicons/css/ionicons.css';
 
-const HeaderBarButton = ({buttonType, buttonTitle, buttonColor, onClick})=>{
+const HeaderBarButton = ({buttonType, buttonTitle, buttonColor, onClick, className})=>{
   // const handleViewButtonClick = (ViewWindowElement)=>{
   //    ViewWindowElement.classList.add('HeaderBar-ViewWindow-Max');
   // }
@@ -39,20 +39,18 @@ const HeaderBarButton = ({buttonType, buttonTitle, buttonColor, onClick})=>{
   };
 
   return (
-    <div className="HeaderBarButton">
+    <div className={"HeaderBarButton "+className}>
         {renderButtonIcon()}
-      <div className="HeaderBarButton-Title">
-        {buttonTitle}
-      </div>
     </div>
   );
 };
 
 HeaderBarButton.propTypes = {
   buttonType: React.PropTypes.string.isRequired,
-  buttonTitle: React.PropTypes.string.isRequired,
+  buttonTitle: React.PropTypes.string,
   buttonColor: React.PropTypes.string.isRequired,
   onClick: React.PropTypes.func.isRequired,
+  className: React.PropTypes.string,
 };
 
 export default HeaderBarButton;
