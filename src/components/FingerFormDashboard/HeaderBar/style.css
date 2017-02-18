@@ -1,0 +1,112 @@
+.header-bar-container {
+	display: flex;
+	-webkit-flex-direction: row;
+    flex-direction: row;
+	background-color: white;
+	border-bottom-style: solid;
+	border-color: #9b59b6;
+	border-width: 1.5px;
+    width: 100%;
+    height: 10%;
+    min-height: 50px;
+    background-color: #f1f1f1;
+}
+
+ .header-bar-navigator {
+ 	display:inline-block;
+ 	font-size: 30px;
+ 	text-align: center;
+ 	color: #9b59b6; 	
+ 	-webkit-flex: 1;
+ 	flex: 1;
+	display: flex;
+	-webkit-flex-direction: column;
+    flex-direction: column;
+ }
+
+ .header-bar-navigator-icon {
+ 	justify-content: center;
+ 	align-items: center;
+ }
+
+ .header-bar-title {
+ 	font-size: 20px;
+ 	font-family: "Helvetica Neue", "myriad",  Helvetica, Arial, sans-serif;
+	color: #9b59b6;
+	display:inline-block;
+	-webkit-flex: 3;
+	flex: 3;
+ }
+
+.header-bar-middle {
+	text-align: center;
+    -webkit-flex: 12;
+    flex: 12;
+ 	justify-content: center;
+	align-items: center;
+ 	height: 70%;
+}
+
+.header-bar-searchbox {
+	border: 1px solid #e1e8ed;
+	border-radius: 7px;
+    padding: 4px 10px;
+    color: grey;
+    font-size: 12px;
+    width: 70%;
+    height: 60%;
+	outline: none;
+	background-color: #f5f8fa;
+}
+
+@media (max-width: 768px) {
+	.header-bar-searchbox{
+		display: none;
+	}
+	.header-bar-middle {
+	    -webkit-flex: 5;
+	    flex: 5;
+	 	justify-content: center;
+	}
+}
+
+.header-bar-right {
+    -webkit-flex: 7;
+    flex: 7;
+    display: flex;
+    justify-content: flex-end;
+	align-items: center;
+    margin-right: 4%;
+}
+
+.header-bar-account {
+	display:inline-block;
+ 	font-size: 30px;
+ 	width: 13%;
+ 	min-width: 40px;
+ 	text-align: center;
+ 	color: grey;
+}
+
+.header-bar-account:hover {
+	color: #9b59b6;
+}
+
+.header-bar-plan {
+	width: 25%;
+	align-items: center;
+  	justify-content: center;
+  	display: flex;
+	border-style: 1px solid;
+	border-radius: 6px;
+	background-color: #9b59b6;
+	color: white;
+ 	font-family: "Helvetica Neue", "myriad",  Helvetica, Arial, sans-serif;
+ 	font-size: 13px;
+  	margin: 0px 5px 3px 5px;
+  	padding: 4px;
+}
+
+.header-bar-plan-text {
+	justify-content: center;
+}

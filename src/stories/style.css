@@ -11,3 +11,11 @@
     height: 40px;
 }
 
+.HeaderBar{
+	background-color: white;
+	width: 100vw;
+	height:10vh;
+	justify-content: center;
+	align-items: center;
+}
+

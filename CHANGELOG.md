@@ -1,3 +1,23 @@
+<a name="1.0.44"></a>
+## [1.0.44](https://github.com/taoxiang1995/tao-components/compare/1.0.3...v1.0.44) (2017-02-18)
+
+
+
+<a name="1.0.43"></a>
+## [1.0.43](https://github.com/taoxiang1995/tao-components/compare/1.0.3...v1.0.43) (2017-02-18)
+
+
+
+<a name="1.0.42"></a>
+## [1.0.42](https://github.com/taoxiang1995/tao-components/compare/1.0.3...v1.0.42) (2017-02-18)
+
+
+
+<a name="1.0.41"></a>
+## [1.0.41](https://github.com/taoxiang1995/tao-components/compare/1.0.3...v1.0.41) (2017-02-18)
+
+
+
 <a name="1.0.40"></a>
 ## [1.0.40](https://github.com/taoxiang1995/tao-components/compare/1.0.3...v1.0.40) (2017-02-17)
 
