@@ -586,10 +586,20 @@
   padding: 15px; }
 
 .md-RichEditor-editor .public-DraftEditor-content {
+  font-family:  "Helvetica Neue", "myriad",  Helvetica, Arial, sans-serif;
+  /*font-size: 100px;*/
   min-height: 100px; }
 
 .md-RichEditor-hidePlaceholder .public-DraftEditorPlaceholder-root {
+  font-family:  "Helvetica Neue", "myriad",  Helvetica, Arial, sans-serif;
+  /*font-size: 100px;*/
   display: none; }
+
+.public-DraftEditorPlaceholder-inner{
+  font-family:  "Helvetica Neue", "myriad",  Helvetica, Arial, sans-serif !important;
+  color: white !important;
+  /*font-size: 100px;*/
+}
 
 .md-RichEditor-editor .md-RichEditor-blockquote {
   border-left: 5px solid #4CA8DE;
