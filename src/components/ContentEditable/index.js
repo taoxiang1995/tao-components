@@ -53,17 +53,10 @@ class ContentEditable extends Component {
             }];
     }
 
-    
-    componentWillMount() {
-        //debugger;
-        // document.getElementsByClassName('DraftEditor-root')[0]&&document.getElementsByClassName('DraftEditor-root')[0].classList.add(this.props.className);
-    }
-    
-
     componentDidMount() {
         this.refs.editor.focus();
         document.getElementsByClassName('md-RichEditor-root')[0]&&document.getElementsByClassName('md-RichEditor-root')[0].classList.add(this.props.EditorStyleClassName);
-        document.getElementsByClassName('DraftEditor-editorContainer')[0]&&document.getElementsByClassName('DraftEditor-editorContainer')[0].classList.add(this.props.TextStyleClassName)
+        document.getElementsByClassName('DraftEditor-editorContainer')[0]&&document.getElementsByClassName('DraftEditor-editorContainer')[0].classList.add(this.props.TextStyleClassName);
     }
 
     componentWillReceiveProps(nextProps) {
@@ -83,8 +76,8 @@ class ContentEditable extends Component {
                         ref="editor"
                         editorState={editorState}
                         onChange={this.onChange} 
-                        inlineButtons={this.inlineButtons}
-                        blockButtons={this.blockButtons}
+                        inlineButtons={this.props.inlineButtons? this.props.inlineButtons : this.inlineButtons}
+                        blockButtons={this.props.blockButtons? this.props.blockButtons : this.blockButtons}
                         />
                 </div>
             );

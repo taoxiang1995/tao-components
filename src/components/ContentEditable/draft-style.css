@@ -597,7 +597,7 @@
 
 .public-DraftEditorPlaceholder-inner{
   font-family:  "Helvetica Neue", "myriad",  Helvetica, Arial, sans-serif !important;
-  color: white !important;
+  color: black !important;
   /*font-size: 100px;*/
 }
 
@@ -751,7 +751,7 @@
     box-sizing: border-box;
     border-radius: 2px;
     display: block;
-    width: 100%;
+    width: 95%;
     padding: 5px;
     border: none;
     background: #2b2b2b;
@@ -760,10 +760,11 @@
     font-weight: 100; }
     .md-editor-toolbar .md-url-input:focus {
       outline: none; }
+
   .md-editor-toolbar .md-url-input-close {
     position: absolute;
-    right: 10px;
-    top: 8px;
+    right: 5px;
+   
     font-size: 20px;
     cursor: pointer; }
 
@@ -774,7 +775,10 @@
   border-right: 1px solid #555;
   position: relative; }
   .md-RichEditor-controls.md-RichEditor-show-link-input {
-    padding: 6px 10px; }
+    display: flex!important;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3px 10px 3px 5px; }
   .md-RichEditor-controls:last-child {
     border-right: none; }
   .md-RichEditor-controls .md-RichEditor-linkButton {

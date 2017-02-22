@@ -19,3 +19,6 @@
 	align-items: center;
 }
 
+.public-DraftEditorPlaceholder-inner{
+    color: white!important;
+}
