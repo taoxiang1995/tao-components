@@ -7,14 +7,14 @@ import React from 'react';
 import { storiesOf, action, linkTo } from '@kadira/storybook';
 import './style.css';
 
-storiesOf('AddFormButton', module)
+/*storiesOf('AddFormButton', module)
     .add('with text', () => (
       <div style={{backgroundColor: "#f1f1f1", height: "100vh", width: "100vw"}}>
         <AddFormButton
           className="AddFormButton"
          />
       </div>
-    ))
+    ))*/
 
 storiesOf('HeaderBar', module)
     .add('with text', () => (
@@ -25,10 +25,10 @@ storiesOf('HeaderBar', module)
       </div>
     ))
 
-storiesOf('Button', module)
-  .add('with text', () => (
-    <Button />
-  ))
+// storiesOf('Button', module)
+//   .add('with text', () => (
+//     <Button />
+//   ))
 
 storiesOf('HeaderBarButton', module)
   .add('theme button', () => (
@@ -40,18 +40,21 @@ storiesOf('HeaderBarButton', module)
   ))
   .add('share button', () => (
      <HeaderBarButton
+          className="HeaderBarButton-Button"
           buttonType="share"
           buttonTitle="Share"
           buttonColor="HeaderBarButton-Yellow"/>
   ))
   .add('view button', () => (
      <HeaderBarButton
+          className="HeaderBarButton-Button"
           buttonType="view"
           buttonTitle="View"
           buttonColor="HeaderBarButton-Green"/>
   ))
   .add('save button', () => (
      <HeaderBarButton
+          className="HeaderBarButton-Button"
           buttonType="save"
           buttonTitle="Save"
           buttonColor="HeaderBarButton-Blue"/>

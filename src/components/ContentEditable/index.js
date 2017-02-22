@@ -69,7 +69,7 @@ class ContentEditable extends Component {
     render() {
         const { editorState } = this.state;
             return (
-                <div className={"Tao-ContentEditable"}>
+                <div className={"Tao-ContentEditable " + this.props.className}>
                     <Editor
                         sideButtons={this.sideButtons}
                         placeholder={this.props.placeholder?this.props.placeholder:'Write Your Text Here..'}

@@ -9,19 +9,23 @@
 }
 
 .HeaderBarButton-Green{
-  background-color: #3fba91;
+  background-color: rgba(1,198,183, 0.8);
+  border: 2px solid rgba(1,198,183, 1);
 }
 
 .HeaderBarButton-Blue{
-  background-color: #6fcbdc;
+  background-color: rgba(111,203,220, 0.8);
+  border: 2px solid rgba(111,203,220, 1);
 }
 
 .HeaderBarButton-Red{
-  background-color: #e11664;
+  background-color: rgba(225,22,100, 0.8);
+  border: 2px solid rgba(225,22,100, 1);
 }
 
 .HeaderBarButton-Yellow{
-  background-color: #ffc585;
+  background-color: rgba(255,197,133, 0.8);
+  border: 2px solid rgba(255,197,133, 1);
 }
 
 .HeaderBarButton:hover{
