@@ -1,3 +1,8 @@
+<a name="1.0.49"></a>
+## [1.0.49](https://github.com/taoxiang1995/tao-components/compare/1.0.3...v1.0.49) (2017-03-03)
+
+
+
 <a name="1.0.48"></a>
 ## [1.0.48](https://github.com/taoxiang1995/tao-components/compare/1.0.3...v1.0.48) (2017-03-03)
 
