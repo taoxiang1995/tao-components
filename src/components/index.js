@@ -5,10 +5,12 @@ import Button from './Button';
 import HeaderBarButton from './HeaderBarButton';
 import ContentEditable from './ContentEditable';
 import HeaderBar from './FingerFormDashboard/HeaderBar';
+import Modal from './Modal';
 
 export {
   Button,
   HeaderBarButton,
   ContentEditable,
-  HeaderBar
+  HeaderBar,
+  Modal
 };
