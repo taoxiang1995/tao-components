@@ -18,6 +18,7 @@ This is a Modal component.
 |ClassModalContainerHeader|sring|''|you can add css class styling to modal container's header here|
 |ClassModalContainerBody|sring|''|you can add css class styling to modal container's Body here|
 |ClassModalContainerFooter|sring|''|you can add css class styling to modal container's footer here|
+|ClassModalContainerBackground|sring|''|you can add css class styling to modal container's Background here|
 
 ## **Example code**
 ```javascript

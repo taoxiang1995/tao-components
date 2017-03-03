@@ -20,16 +20,19 @@ const HeaderBarButton = ({buttonType, buttonTitle, buttonColor, onClick, classNa
         break;
       case 'save':
         return (<div
+            onClick={onClick}
             className={'HeaderBarButton-Icon '+buttonColor}>
               <i className="ion-ios-download HeaderBarButton-Icon-Icon" />
           </div>);
       case 'theme':
         return (<div
+            onClick={onClick}
             className={'HeaderBarButton-Icon '+buttonColor}>
               <i className="ion-waterdrop HeaderBarButton-Icon-Icon" />
           </div>);
       case 'share':
         return (<div
+            onClick={onClick}
             className={'HeaderBarButton-Icon '+buttonColor}>
               <i className="ion-share HeaderBarButton-Icon-Icon" />
           </div>);

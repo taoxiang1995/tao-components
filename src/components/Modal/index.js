@@ -10,7 +10,7 @@ export default class Modal extends Component{
     }
 
     handleModalBackgroundClick = (e)=>{
-        if (e.target.className == "Modal-Background" && this.props.hideModal){
+        if (e.target.classList[0] == "Modal-Background" && this.props.hideModal){
             this.props.hideModal();
         }
     }
@@ -30,7 +30,8 @@ export default class Modal extends Component{
     renderModal=()=>{
         if (this.props.showModal){
             return(
-                <div onClick={this.handleModalBackgroundClick} className="Modal-Background">
+                <div onClick={this.handleModalBackgroundClick} 
+                className={"Modal-Background "+this.props.ClassModalContainerBackground}>
                 <ReactCSSTransitionGroup
                 transitionName="Modal"
                 transitionAppear={true}

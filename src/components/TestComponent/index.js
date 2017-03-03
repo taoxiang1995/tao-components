@@ -31,7 +31,7 @@ class TestComponent extends Component {
                             onChange={(e)=>this.setState({userInput:e.target.value})} 
                             value={this.state.userInput} 
                             style={{'width':'96%', "margin-top":"10px", "height":"30px", "border-radius":"5px", "padding":"0px 0px 0px 5px", "border":"none", "border":"solid 1px #d9d9d9"}} 
-                            placeholder="Please input your form name here" />
+                            placeholder="Please input your form name" />
                     </div>
                 </Modal>
                 <Button onClick={()=>this.setState({showModal:true})}>Launch Modal</Button>
