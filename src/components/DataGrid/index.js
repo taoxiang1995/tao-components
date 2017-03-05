@@ -1,6 +1,6 @@
 const ReactDataGrid = require('react-data-grid');
 // const exampleWrapper = require('../components/exampleWrapper');
-import 'bootstrap/dist/css/bootstrap.css';
+import './bootstrap/dist/css/bootstrap.css';
 const React = require('react');
 
 const Example = React.createClass({
