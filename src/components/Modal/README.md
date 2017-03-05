@@ -19,6 +19,7 @@ This is a Modal component.
 |ClassModalContainerBody|sring|''|you can add css class styling to modal container's Body here|
 |ClassModalContainerFooter|sring|''|you can add css class styling to modal container's footer here|
 |ClassModalContainerBackground|sring|''|you can add css class styling to modal container's Background here|
+|type|string|''|set the color of Modal header. By default, the color is green, if set to 'Warning', the color will be red|
 
 ## **Example code**
 ```javascript

@@ -6,6 +6,7 @@ import AddFormButton from '../components/FingerFormDashboard/AddFormButton';
 import Modal from '../components/Modal';
 import React from 'react';
 import TestComponent from '../components/TestComponent';
+import DataGrid from '../components/DataGrid';
 import { storiesOf, action, linkTo } from '@kadira/storybook';
 import './style.css';
 
@@ -76,6 +77,10 @@ storiesOf('HeaderBarButton', module)
   ))
 
 
+  storiesOf('DataGrid', module)
+    .add('Basic Data Grid', ()=>(
+      <DataGrid/>
+    ))
 
   storiesOf('Modal', module)
    .addDecorator((story) => (

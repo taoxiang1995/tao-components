@@ -6,11 +6,13 @@ import HeaderBarButton from './HeaderBarButton';
 import ContentEditable from './ContentEditable';
 import HeaderBar from './FingerFormDashboard/HeaderBar';
 import Modal from './Modal';
+import DataGrid from './DataGrid';
 
 export {
   Button,
   HeaderBarButton,
   ContentEditable,
   HeaderBar,
-  Modal
+  Modal,
+  DataGrid
 };

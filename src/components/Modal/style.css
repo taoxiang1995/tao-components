@@ -40,6 +40,11 @@
     background-blend-mode: screen;
 }
 
+.Modal-Container-Header-warning{
+    background: linear-gradient(90deg, #c0392b 100%, #c0392b  100%), radial-gradient(at top left, rgba(0,0,0,0.30) 0%, rgba(0,0,0,0.30) 100%) !important;
+    /*background-color: #c0392b !important;*/
+}
+
 .Modal-Container-Footer{
     /*position: absolute;*/
     /*bottom: 0px;*/
