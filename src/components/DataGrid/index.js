@@ -1,6 +1,7 @@
 const ReactDataGrid = require('react-data-grid');
 // const exampleWrapper = require('../components/exampleWrapper');
-import './bootstrap/dist/css/bootstrap.css';
+// import 'bootstrap/dist/css/bootstrap.css';
+import './style.css';
 const React = require('react');
 
 const Example = React.createClass({
@@ -75,11 +76,14 @@ getInitialState() {
 
   render() {
     return  (
-      <ReactDataGrid
-        columns={this._columns}
-        rowGetter={this.rowGetter}
-        rowsCount={this._rows.length}
-        minHeight={500} />);
+        <div className="DataGrid-Wrapper">
+            <ReactDataGrid
+                columns={this._columns}
+                rowGetter={this.rowGetter}
+                rowsCount={this._rows.length}
+                minHeight={500} />
+        </div>
+    );
   }
 });
 

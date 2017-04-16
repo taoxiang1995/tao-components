@@ -1,7 +1,7 @@
 {
   "name": "tao-react-components",
   "description": "react components crafted with love by Tao",
-  "version": "1.0.52",
+  "version": "1.0.53",
   "homepage": "",
   "repository": {
     "type": "git",
@@ -42,7 +42,6 @@
     "react-prism": "^4.0.0",
     "react-router": "^4.0.0-alpha.6",
     "react-scripts": "0.8.5",
-    "reactstrap": "^4.0.1",
     "@kadira/storybook": "^2.21.0"
   },
   "dependencies": {
@@ -50,7 +49,6 @@
     "medium-draft": "^0.4.1",
     "react-addons-css-transition-group": "^15.4.2",
     "react-addons-transition-group": "^15.3.2",
-    "react-bootstrap": "^0.30.7",
     "react-data-grid": "^2.0.18",
     "react-scripts": "0.8.5",
     "reactstrap": "^4.0.0"

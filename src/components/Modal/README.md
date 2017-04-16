@@ -25,7 +25,7 @@ This is a Modal component.
 ```javascript
 import React, {Component} from 'react';
 import Modal from '../Modal';
-import {Button} from 'react-bootstrap';
+import {Button} from 'reactstrap';
 import './style.css';
 
 class TestComponent extends Component {

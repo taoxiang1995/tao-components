@@ -75,6 +75,7 @@ export default class Modal extends Component{
                 transitionAppear={true}
                 transitionAppearTimeout={1000}
                 transitionLeaveTimeout={1000}
+                transitionEnterTimeout={1000}
                 > 
                     <div className={"Modal-Container "+this.props.ClassModalContainer}>
                         <div className={"Modal-Container-Header  "+this.props.ClassModalContainerHeader+ ' ' +this.headerColor()}>
